@@ -1,0 +1,94 @@
+:root {
+    --primary: #DD575C;
+}
+
+.nav-link {
+    padding: 0.5rem 0.5rem !important;
+}
+
+.signup {
+    border: 2px solid gray;
+    border-radius: 3px;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.signup:hover {
+    background-color: rgba(136, 5, 5, 0.42);
+    color: white;
+}
+
+.signup:active {
+    transform: scale(0.95);
+}
+
+.submit {
+    background-color: var(--primary) !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.submit:hover {
+    color: white !important;
+    background-color: #ad272c !important;
+}
+
+.submit:active {
+    outline: none !important;
+    border: none !important;
+    scrollbar-highlight-color: #DD575C !important;
+    transform: scale(0.95);
+    transition: 0.2s;
+}
+
+.btn-primary {
+    background-color: #88200e !important;
+}
+
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-ghost {
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-ghost:hover {
+    background-color: var(--primary);
+    color: white;
+    transition: 0.2s;
+}
+
+.btn-blue {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-blue:hover {
+    background-color: #ad272c;
+    transition: 0.2s;
+}
+

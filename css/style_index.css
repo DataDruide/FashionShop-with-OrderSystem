@@ -1,0 +1,285 @@
+body {
+  font-family: "Gowun Dodum", sans-serif;
+  background-color: #eaedf8;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.col-md-2 {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  padding: 100px;
+  text-align: center;
+  background-color: #343434;
+  color: white;
+  margin-top: 300px;
+}
+
+.main {
+  display: flex;
+}
+
+.menu {
+  width: 20%;
+  background-color: #dbdbde;
+  margin-right: 32px;
+  padding-top: 150px;
+  height: 100vh;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.menu img {
+  margin-right: 8px;
+}
+
+.menu a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.content {
+  width: 80%;
+  margin-top: 120px;
+  margin-right: 32px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.menubar {
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 80px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar {
+  border-radius: 100%;
+  background-color: yellowgreen;
+  padding: 16px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.myname {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-bottom: 16px;
+  border-radius: 8px;
+  padding: 8px;
+  padding-left: 64px;
+  position: relative;
+}
+
+.profile-picture {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  left: 8px;
+}
+
+.phonebtn {
+  background-color: #746cf5;
+  padding: 4px;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.phonebtn:hover {
+  background-color: #8926d0;
+}
+
+.banner img {
+  width: 100%; /* Bildbreite auf 100% des Elternelements (div.banner) setzen */
+  height: 50%; /* Bildhöhe auf 50% des Elternelements setzen */
+  object-fit: cover; /* Das Bild wird die Höhe beibehalten und dennoch das Elternelement vollständig ausfüllen */
+}
+
+/* Überschrift mit Schatten */
+/* Überschrift mit Schatten */
+h2,
+h3 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Stile für die Buttons */
+.action-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px; /* Runde Ecken */
+  background-color: #746cf5; /* Hintergrundfarbe des Buttons */
+  color: #fff; /* Textfarbe */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Schatten */
+}
+
+/* Stile für die Buttons bei Hover (Mausüber) */
+.action-button:hover {
+  background-color: #5247f2; /* Hintergrundfarbe ändern */
+}
+
+/* Stil für den Newsletter-Abschnitt */
+.mycontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Schatten */
+
+}
+
+.newsletter-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 20px;
+}
+
+.newsletter-section {
+  flex: 1;
+  background-color: #F2EEEE;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.newsletter-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.newsletter-section p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.newsletter-form {
+  width: 100%;
+  background-color: #F2EEEE;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.newsletter-form p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  width: 30%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Stile für das Download-App-Container */
+.download-app {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Stile für das Download-Icon */
+.download-icon img {
+  width: 100px; /* Ändere die Breite nach Bedarf */
+  height: auto; /* Die Höhe automatisch anpassen */
+  box-shadow: 2px 2px 5px #888888; /* Füge einen Schatten hinzu */
+}
+
+/* Stile für das Download-Info-Container */
+.download-info {
+  margin-left: 20px; /* Ändere den Abstand nach Bedarf */
+}
+
+/* Weitere Stile können nach Bedarf hinzugefügt werden */

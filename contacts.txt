@@ -1,0 +1,1 @@
+[{"name":"Rewe Produktannahme","phone":"0800 444 555"},{"name":"Lidl Produktannahme","phone":"0800 678 345"},{"name":"Norma Produktannahme","phone":"07345 466 457"}]

@@ -1,0 +1,46 @@
+
+h1 {
+    color: black;
+}
+
+
+/* Hinzufügen der Schattenbox für den Warenkorbcontainer */
+.box {
+    background: #fff; /* Hintergrund auf weiß setzen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schatten für 3D-Effekt */
+    border-radius: 4px; /* Ecken abrunden */
+    padding: 20px; /* Innenabstand setzen */
+    margin-top: 20px; /* Abstand von Elementen oberhalb */
+}
+
+/* Stilisierung des "Buy Now"-Buttons */
+.btn-dark {
+    background-color: #010101; /* Grüne Hintergrundfarbe, fühlt sich positiv für einen Kaufbutton an */
+    color: white; /* Textfarbe auf weiß setzen */
+    font-size: 16px; /* Schriftgröße erhöhen */
+    padding: 12px 30px; /* Größeren Abstand setzen */
+    border: none; /* Keine Rahmenlinien */
+    border-radius: 4px; /* Ecken abrunden */
+    transition: background-color 0.3s; /* Sanfter Übergang für Hover-Effekt */
+}
+
+.btn-dark:hover {
+    background-color: #232323; /* Dunklerer Grün-Ton beim Darüberfahren */
+}
+
+/* Bestehende .btn Klasse Anpassungen für alle Buttons */
+.btn {
+    font-weight: bold; /* Schrift fett machen */
+    text-transform: uppercase; /* Text in Großbuchstaben */
+    letter-spacing: 0.05em; /* Buchstabenabstand leicht erhöhen */
+    transition: background-color 0.3s; /* Sanfter Übergang für Hover-Effekt */
+}
+
+/* Media Queries Anpassungen für bessere Responsive-Eigenschaften */
+@media (max-width: 768px) {
+    .btn {
+        width: 100%; /* Button auf volle Breite setzen */
+        padding: 15px; /* Größeren Abstand setzen */
+    }
+}
+
